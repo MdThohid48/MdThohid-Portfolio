@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thohid | Portfolio</title>
+    <link rel="icon" type="image/png" href="t.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="t.png" alt="Favicon" style="height:32px; vertical-align:middle; margin-right:8px;">
+            MD THOHID
+        </div>
+        <input type="checkbox" id="menu-toggle" hidden>
+        <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="particles-js">
+        <section class="hero">
+            <div class="hero-left">
+                <p class="tagline">WE DESIGN & BUILD BRANDS</p>
+                <h1>Hi, I am <span>Mohammed Thohid</span> <br>I build responsive & modern websites.</h1>
+                <div class="buttons">
+                    <a href="#" class="btn primary">Hire me</a>
+                    <a href="resume.pdf" class="btn outline" download>Download CV</a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="bg-skew"></div>
+                <img src="./main sec img.jpg" alt="Thohid" />
+            </div>
+        </section>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img">
+                    <img src="./intro sec img.jpg" alt="Profile Picture">
+                </div>
+                <div class="about-content">
+                    <h5 class="section-subtitle">MY INTRODUCTION</h5>
+                    <h2>About Me</h2>
+                    <p>
+                      I am Mohammed Thohid, a dedicated and enthusiastic student from Karnataka, India. Currently, I am pursuing a Diploma in Computer Science and Engineering at Government Polytechnic College. With a strong interest in the field of computer science, I am eager to continue my education and deepen my knowledge through higher studies.
+I am passionate about learning new technologies and acquiring practical skills that are essential in today’s rapidly evolving tech landscape. I am actively seeking internship opportunities and scholarships that will help me gain real-world experience and further support my academic and professional growth.
+My long-term goal is to build a successful career in the software industry, contributing to innovative projects and solving real-world problems through technology. I believe that continuous learning and hands-on experience are key to becoming a skilled and impactful software professional..
+                    </p>
+
+                    <p><em>“Design is intelligence made visible. Code brings it to life.”</em></p>
+
+
+                    <div class="about-details">
+                        <p><strong>Name:</strong> Mohammed Thohid </p>
+                        <p><strong>Date of birth:</strong> April 14, 2007</p>
+                        <p><strong>Address:</strong> Davangere , Karnataka , India</p>
+                        <p><strong>Zip code:</strong> 577001</p>
+                        <p><strong>Email:</strong> princetz084@gmail.com</p>
+                        <p><strong>Phone:</strong> +91-63740-23707</p>
+                    </div>
+                    <div class="interests">
+                        <span><i class="fas fa-music"></i> Music</span>
+                        <span><i class="fas fa-plane"></i> Travel</span>
+                        <span><i class="fas fa-film"></i> Movie</span>
+                        <span><i class="fas fa-futbol"></i> Sports</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <img src="html (2).png" class="skill-icon" alt="HTML" />
+                <h4>HTML</h4>
+                <div class="level-label">95%</div>
+            </div>
+            <div class="skill-card">
+                <img src="css.png" class="skill-icon" alt="CSS" />
+                <h4>CSS</h4>
+                <div class="level-label">92%</div>
+            </div>
+            <div class="skill-card">
+                <img src="javascript.png" class="skill-icon" alt="JavaScript" />
+                <h4>JavaScript</h4>
+                <div class="level-label">80%</div>
+            </div>
+            <div class="skill-card">
+                <img src="Bootstrap_logo.svg.png" class="skill-icon" alt="Bootstrap"  />
+                <h4>Bootstrap</h4>
+                <div class="level-label">90%</div>
+            </div>
+            <div class="skill-card">
+                <img src="react.png" class="skill-icon" alt="React" />
+                <h4>React</h4>
+                <div class="level-label">78%</div>
+            </div>
+            <div class="skill-card">
+                <img src="figma.png" class="skill-icon" alt="Photoshop" />
+                <h4>Figma</h4>
+                <div class="level-label">60%</div>
+            </div>
+            <!-- <div class="skill-card">
+                <img src="images/wordpress.png" class="skill-icon" alt="WordPress" />
+                <h4>WordPress</h4>
+                <div class="level-label">75%</div>
+            </div>
+            <div class="skill-card">
+                <img src="images/seo.png" class="skill-icon" alt="SEO" />
+                <h4>SEO</h4>
+                <div class="level-label">70%</div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Projects Section (moved outside skills section) -->
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="Project1.png" alt="Face Recognition Attendance Project" />
+                <div class="project-info">
+                    <h3>Face Recognition Attendance</h3>
+                    <p>Powered By Ai</p>
+                    <a href="https://lovable.dev/projects/cbf1fb85-4872-4c1c-b258-fb134eaebdd6" target="_blank">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="neolearn.png" alt="Project 1" />
+                <div class="project-info">
+                    <h3>Learning Institute</h3>
+                    <p>HTML, CSS, JS</p>
+                    <a href="https://your-project-link.com" target="_blank">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="portfolio.png" alt="Project 1" />
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>HTML, CSS, JS</p>
+                    <a href="https://your-project-link.com" target="_blank">View Project</a>
+                </div>
+            </div>
+            <!-- Add more cards if needed -->
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <h2>My Achievements</h2>
+        <p style="color:#888; margin-bottom:24px;">A showcase of my certificates and badges</p>
+        <div class="achievement-container">
+            <div class="achievement-item">
+                <img src="Infosys.jpg" alt="Certificate  1" />
+                <p>Software engineering and Agile Software Development</p>
+            </div>
+            <div class="achievement-item">
+                <img src="Module 1.jpg" alt="Badge 1" />
+                <p>Module 1 badge Aspire leaders 1</p>
+            </div>
+            <div class="achievement-item">
+                <img src="path_to_your_certificate_image.jpg" alt="Certificate 2">
+                <p>Certificate Name 2</p>
+            </div>
+            <div class="achievement-item">
+                <img src="path_to_your_badge_image.jpg" alt="Badge 2">
+                <p>Badge Name 2</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required />
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required />
+                </div>
+                <div class="form-group">
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <h3>THOHID.DEV</h3>
+            <p>Crafting frontend experiences with code & creativity ✨</p>
+            <div class="social-icons">
+                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mohammed-thohid-452764369" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://instagram.com/prinxxce.z" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copyright">© 2025 Mohammed  Thohid. All rights reserved.</p>
+            <p>AI Powered </p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal().reveal('.hero-left', { origin: 'left', distance: '50px', duration: 1000, delay: 300 });
+        ScrollReveal().reveal('.hero-right', { origin: 'right', distance: '50px', duration: 1000, delay: 500 });
+        ScrollReveal().reveal('.navbar', { origin: 'top', distance: '20px', duration: 800, delay: 200 });
+        ScrollReveal().reveal('.about-img', { origin: 'left', distance: '50px', duration: 1000, delay: 200 });
+        ScrollReveal().reveal('.about-content', { origin: 'right', distance: '50px', duration: 1000, delay: 300 });
+    </script>
+</body>
+
+</html>
